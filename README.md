@@ -6,14 +6,6 @@ index.html
 script.js
 style.css
 
-project-folder/
-│
-├
-├── main_folder/
-│   ├── index.html
-│   ├── style.css
-│   └── script.js
-
 Make sure all three files are in one directory.
 
  🚀 Run the Project

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+  </style>
+        <h1>Password Strength Checker</h1>
+        <div class="password-container">
+            <input type="password" id="passwordInput" placeholder="Enter your password">
+            <button id="toggleVisibility">👁️</button>
+        </div>
+        <div class="strength-meter">
+            <div class="strength-bar"></div>
+        </div>
+        <div class="strength-text">Strength: <span id="strengthLabel">Weak</span></div>
+        <div class="requirements">
+            <h3>Password Requirements:</h3>
+            <ul>
+                <li id="length" class="invalid">At least 8 characters</li>
+                <li id="uppercase" class="invalid">Contains uppercase letters</li>
+                <li id="lowercase" class="invalid">Contains lowercase letters</li>
+                <li id="number" class="invalid">Contains numbers</li>
+                <li id="special" class="invalid">Contains special characters</li>
+            </ul>
+        </div>
+        <div class="tips">
+            <h3>Tips for a Strong Password:</h3>
+            <ul>
+                <li>Use a mix of letters, numbers, and symbols</li>
+                <li>Avoid common words or phrases</li>
+                <li>Consider using a passphrase</li>
+                <li>Don't reuse passwords across sites</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
